@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #808080 !important; /* Dark grey */
 }
 
 .about {
@@ -37,6 +38,95 @@ header {
   transform: scale(1.05);
 }
 
+/* About Section */
+.about {
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.about h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  font-size: 50px;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* form styling */
+.contact-form {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+form {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; 
+  border: 4px outset #808080; 
+  border-radius: 5px;
+  font-size: 16px; 
+}
+
+form textarea {
+  height: 100px; 
+  resize: vertical; 
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #808080;
+  color: rgb(243, 243, 243);
+  border: outset blue;
+  border-radius: 5px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.order-btn {
+  margin-bottom: 20px; /* Adjust space as needed */
+}
+
+/* Hover effect on button */
+form button:hover {
+  background-color: darkblue;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero h1 {
@@ -65,4 +155,12 @@ header {
     font-size: 0.9rem;
     padding: 8px 16px;
   }
+}
+
+/* footer styling */
+footer {
+  background-color: #00008b; /* Dark blue color */
+  color: white; /* Ensures text remains visible */
+  padding: 15px 0; /* Adds some spacing */
+  text-align: center;
 }
