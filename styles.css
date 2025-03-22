@@ -7,14 +7,12 @@ body {
   background-color: #808080 !important; /* Dark grey */
 }
 
-.about {
-  justify-content: right;
-}
-/* Header Styling */
+/* Header styles */
 header {
   padding: 15px 0;
 }
 
+/* Hero section */
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 10px;
@@ -29,7 +27,7 @@ header {
   font-size: 1rem;
 }
 
-/* Product Section */
+/* Products section */
 .card {
   transition: transform 0.3s ease;
 }
@@ -42,6 +40,7 @@ header {
 .about {
   padding: 50px;
   background-color: #f8f9fa;
+  justify-content: right;
 }
 
 .about h2 {
@@ -96,15 +95,15 @@ form input,
 form textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px; 
-  border: 4px outset #808080; 
+  margin-bottom: 10px;
+  border: 4px outset #808080;
   border-radius: 5px;
-  font-size: 16px; 
+  font-size: 16px;
 }
 
 form textarea {
-  height: 100px; 
-  resize: vertical; 
+  height: 100px;
+  resize: vertical;
 }
 
 form button {
@@ -118,16 +117,25 @@ form button {
   font-size: 22px;
   cursor: pointer;
 }
+
+/* CTA button */
 .order-btn {
-  margin-bottom: 20px; /* Adjust space as needed */
+  margin-bottom: 20px;
 }
 
-/* Hover effect on button */
 form button:hover {
   background-color: darkblue;
 }
 
-/* Responsive Design */
+/* footer section styling */
+footer {
+  background-color: #00008b;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/* Responsive Design for different screens compatibility */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
@@ -155,12 +163,4 @@ form button:hover {
     font-size: 0.9rem;
     padding: 8px 16px;
   }
-}
-
-/* footer styling */
-footer {
-  background-color: #00008b; /* Dark blue color */
-  color: white; /* Ensures text remains visible */
-  padding: 15px 0; /* Adds some spacing */
-  text-align: center;
 }
