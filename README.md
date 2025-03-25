@@ -14,7 +14,7 @@ This project involves creating a **responsive landing page** for an **online sto
 
 ## **Technologies Used**  
 - **HTML5** – Structure and layout of the webpage.  
-- **Bootstrap 5 ** – Used for a grid-based layout and pre-built UI components.  
+- **Bootstrap 4 ** – Used for a grid-based layout and pre-built UI components.  
 
 ## **File Structure**  
 /store-landing-page
