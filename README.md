@@ -14,17 +14,13 @@ This project involves creating a **responsive landing page** for an **online sto
 
 ## **Technologies Used**  
 - **HTML5** – Structure and layout of the webpage.  
-- **CSS3** – Custom styling and responsiveness.  
 - **Bootstrap 5 ** – Used for a grid-based layout and pre-built UI components.  
-
 
 ## **File Structure**  
 /store-landing-page
 │── index.html             # Main HTML file
-│── styles.css             # Custom CSS styles
 │── images/                # Folder for product images
 │── README.md              # Documentation file
-
 
 ## **Future Enhancements**  
 🔹 Add a **shopping cart** feature.  
@@ -32,8 +28,5 @@ This project involves creating a **responsive landing page** for an **online sto
 🔹 Integrate **Google Analytics** for visitor tracking.  
 🔹 Improve **animations and hover effects** for better UI.  
 
-
 ### **Author**  
 **Nathan Ateka** | *Developer*  
-
-🚀 Happy Coding & Store Designing! 🚀
